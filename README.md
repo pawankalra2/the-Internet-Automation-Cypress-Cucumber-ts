@@ -3,7 +3,7 @@
 ## Can be Run Locally on Window/Linux/Mac
 Prerequisite :node and npm should be installed
 - npm install -g cypress  (This is to install Cypress globally on machine)
-- git clone https://github.com/pawankalra2/the-internet-automation-cypress-cucumber-ts.git or download Zip
+- git clone https://github.com/pawankalra2/the-Internet-Automation-Cypress-Cucumber-ts.git or download Zip
 - cd the-internet-automation-cypress-cucumber-ts
 - npm install  (To download all dependencies of project from package.json)
 - npm run runAllTests (to Run all Tests) or

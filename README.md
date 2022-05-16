@@ -1,4 +1,4 @@
-<h1 align="center">Autoating Form Authentication(Login) Feature of http://the-internet.herokuapp.com using Cypress,Cucumber and Typescript </h1>
+<h1 align="center">Automating Form Authentication (Login) Feature of http://the-internet.herokuapp.com using Cypress,Cucumber and Typescript </h1>
 
 ## Can be Run Locally on Window/Linux/Mac
 Prerequisite :node and npm should be installed

@@ -1,0 +1,260 @@
+[
+  {
+    "description": "    Description: The purpose of this feature is to test the Login Functionality of the-internet website.",
+    "keyword": "Feature",
+    "name": "Automate Form Authentication for the website",
+    "line": 1,
+    "id": "automate-form-authentication-for-the-website",
+    "tags": [],
+    "uri": "TC001_formAuthentication.feature",
+    "elements": [
+      {
+        "id": "automate-form-authentication-for-the-website;login-into-application-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Login into application with valid credentials",
+        "tags": [
+          {
+            "name": "@FormAuthentication",
+            "line": 8
+          },
+          {
+            "name": "@PositiveScenario",
+            "line": 8
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User open the-internet website",
+            "result": {
+              "status": "passed",
+              "duration": 3262000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User clicks on \"Form Authentication\"",
+            "result": {
+              "status": "passed",
+              "duration": 1043000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should see \"Login Page\"",
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User enters valid username and password",
+            "result": {
+              "status": "passed",
+              "duration": 1210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User clicks on Login Button",
+            "result": {
+              "status": "passed",
+              "duration": 1034000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User should see message \"You logged into a secure area!\"",
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User should click on Logout button",
+            "result": {
+              "status": "passed",
+              "duration": 2111000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "automate-form-authentication-for-the-website;login-into-application-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Login into application with invalid credentials",
+        "tags": [
+          {
+            "name": "@FormAuthentication",
+            "line": 15
+          },
+          {
+            "name": "@NegativeScenario",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User open the-internet website",
+            "result": {
+              "status": "passed",
+              "duration": 2171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User clicks on \"Form Authentication\"",
+            "result": {
+              "status": "passed",
+              "duration": 800000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should see \"Login Page\"",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "User enters invalid username and password ex : \"username123\" and \"password123\"",
+            "result": {
+              "status": "passed",
+              "duration": 736000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User clicks on Login Button",
+            "result": {
+              "status": "passed",
+              "duration": 872000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "User should see message \"Your username is invalid!\"",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "automate-form-authentication-for-the-website;login-into-application-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Login into application with invalid credentials",
+        "tags": [
+          {
+            "name": "@FormAuthentication",
+            "line": 15
+          },
+          {
+            "name": "@NegativeScenario",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User open the-internet website",
+            "result": {
+              "status": "passed",
+              "duration": 1084000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User clicks on \"Form Authentication\"",
+            "result": {
+              "status": "passed",
+              "duration": 649000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should see \"Login Page\"",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "User enters invalid username and password ex : \"tomsmith\" and \"test123\"",
+            "result": {
+              "status": "passed",
+              "duration": 617000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User clicks on Login Button",
+            "result": {
+              "status": "passed",
+              "duration": 795000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "User should see message \"Your password is invalid!\"",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

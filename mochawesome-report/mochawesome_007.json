@@ -1,0 +1,154 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 0,
+    "pending": 0,
+    "failures": 3,
+    "start": "2022-05-14T12:38:24.254Z",
+    "end": "2022-05-14T12:38:39.594Z",
+    "duration": 15340,
+    "testsRegistered": 3,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "56748a07-2a1f-491d-ae40-2507d186cd4c",
+      "title": "",
+      "fullFile": "cypress/integration/TC001_formAuthentication.feature",
+      "file": "cypress/integration/TC001_formAuthentication.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5a6f3daa-60d2-4b36-9d42-cd09346d5011",
+          "title": "Automate Form Authentication for the website",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login into application with valid credentials",
+              "fullTitle": "Automate Form Authentication for the website Login into application with valid credentials",
+              "timedOut": null,
+              "duration": 7250,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "Error: Step implementation missing for: User clicks on \"Form Authentication\" Menu",
+                "estack": "Error: Step implementation missing for: User clicks on \"Form Authentication\" Menu\n    at Context.resolveAndRunStepDefinition (http://the-internet.herokuapp.com/__cypress/tests?p=cypress/integration/TC001_formAuthentication.feature:10489:11)\n    at Context.eval (http://the-internet.herokuapp.com/__cypress/tests?p=cypress/integration/TC001_formAuthentication.feature:9827:35)",
+                "diff": null
+              },
+              "uuid": "c8dc5ad0-f9cc-4327-aa3d-6d0efe986ebe",
+              "parentUUID": "5a6f3daa-60d2-4b36-9d42-cd09346d5011",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login into application with invalid credentials (example #1)",
+              "fullTitle": "Automate Form Authentication for the website Login into application with invalid credentials (example #1)",
+              "timedOut": null,
+              "duration": 1509,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "Error: Step implementation missing for: User clicks on \"Form Authentication\" Menu",
+                "estack": "Error: Step implementation missing for: User clicks on \"Form Authentication\" Menu\n    at Context.resolveAndRunStepDefinition (http://the-internet.herokuapp.com/__cypress/tests?p=cypress/integration/TC001_formAuthentication.feature:10489:11)\n    at Context.eval (http://the-internet.herokuapp.com/__cypress/tests?p=cypress/integration/TC001_formAuthentication.feature:9827:35)",
+                "diff": null
+              },
+              "uuid": "af0014f8-c827-425e-8160-42b4b293414d",
+              "parentUUID": "5a6f3daa-60d2-4b36-9d42-cd09346d5011",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login into application with invalid credentials (example #2)",
+              "fullTitle": "Automate Form Authentication for the website Login into application with invalid credentials (example #2)",
+              "timedOut": null,
+              "duration": 6303,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "Error: Step implementation missing for: User clicks on \"Form Authentication\" Menu",
+                "estack": "Error: Step implementation missing for: User clicks on \"Form Authentication\" Menu\n    at Context.resolveAndRunStepDefinition (http://the-internet.herokuapp.com/__cypress/tests?p=cypress/integration/TC001_formAuthentication.feature:10489:11)\n    at Context.eval (http://the-internet.herokuapp.com/__cypress/tests?p=cypress/integration/TC001_formAuthentication.feature:9827:35)",
+                "diff": null
+              },
+              "uuid": "50a9fd93-9a0f-4167-8210-dad3f71011a4",
+              "parentUUID": "5a6f3daa-60d2-4b36-9d42-cd09346d5011",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "c8dc5ad0-f9cc-4327-aa3d-6d0efe986ebe",
+            "af0014f8-c827-425e-8160-42b4b293414d",
+            "50a9fd93-9a0f-4167-8210-dad3f71011a4"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 15062,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-05-14T12:26:49.392Z",
+    "end": "2022-05-14T12:27:04.576Z",
+    "duration": 15184,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d19f072c-f3fa-47c5-9e12-d9b13541a61b",
+      "title": "",
+      "fullFile": "cypress/integration/TC001_formAuthentication.feature",
+      "file": "cypress/integration/TC001_formAuthentication.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "39ef6098-7ceb-494a-b063-67f72bd2512e",
+          "title": "Automate Form Authentication for the website",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login into application with valid credentials",
+              "fullTitle": "Automate Form Authentication for the website Login into application with valid credentials",
+              "timedOut": null,
+              "duration": 8738,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "fa1684b9-12b9-413d-8b93-42235a6db844",
+              "parentUUID": "39ef6098-7ceb-494a-b063-67f72bd2512e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login into application with invalid credentials (example #1)",
+              "fullTitle": "Automate Form Authentication for the website Login into application with invalid credentials (example #1)",
+              "timedOut": null,
+              "duration": 3053,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "0158004f-dddc-4994-ac6d-30dca3e11bc9",
+              "parentUUID": "39ef6098-7ceb-494a-b063-67f72bd2512e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login into application with invalid credentials (example #2)",
+              "fullTitle": "Automate Form Authentication for the website Login into application with invalid credentials (example #2)",
+              "timedOut": null,
+              "duration": 3016,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "8989cbe9-7c37-4fff-8616-47cede6292f6",
+              "parentUUID": "39ef6098-7ceb-494a-b063-67f72bd2512e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fa1684b9-12b9-413d-8b93-42235a6db844",
+            "0158004f-dddc-4994-ac6d-30dca3e11bc9",
+            "8989cbe9-7c37-4fff-8616-47cede6292f6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 14807,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

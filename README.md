@@ -1,6 +1,6 @@
 <h1 align="center">Autoating Form Authentication(Login) Feature of http://the-internet.herokuapp.com using Cypress,Cucumber and Typescript </h1>
 
-## Run Locally on Linux
+## Can be Run Locally on Window/Linux/Mac
 Prerequisite :node and npm should be installed
 - npm install -g cypress  (This is to install Cypress globally on machine)
 - git clone https://github.com/pawankalra2/the-internet-automation-cypress-cucumber-ts.git or download Zip

@@ -1,6 +1,6 @@
 <h1 align="center">Autoating Form Authentication(Login) Feature of http://the-internet.herokuapp.com using Cypress,Cucumber and Typescript </h1>
 
-## Run Locally on Linux
+## Can be Run Locally on Window/Linux/Mac
 Prerequisite :node and npm should be installed
 - npm install -g cypress  (This is to install Cypress globally on machine)
 - git clone https://github.com/pawankalra2/the-internet-automation-cypress-cucumber-ts.git or download Zip
@@ -44,3 +44,12 @@ Common page contains elements/methods which are common.
 ## Integrating with CI-CD (Jenkins) : 
 This test can be integrated with ci-cd tool like Jenkins and can be run on linux machine/docker image.
 Refer Sample pipeline : jenkinsSamplePipelineCypress.groovy
+
+Below find Report of the test Run
+
+![image](https://user-images.githubusercontent.com/44734956/168641621-32d02797-0a0f-4b96-b7d5-c3a930a57659.png)
+
+
+![image](https://user-images.githubusercontent.com/44734956/168641783-2570258a-f6e0-48e2-8cb4-51552155da5e.png)
+
+

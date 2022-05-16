@@ -44,3 +44,12 @@ Common page contains elements/methods which are common.
 ## Integrating with CI-CD (Jenkins) : 
 This test can be integrated with ci-cd tool like Jenkins and can be run on linux machine/docker image.
 Refer Sample pipeline : jenkinsSamplePipelineCypress.groovy
+
+Below find Report of the test Run
+
+![image](https://user-images.githubusercontent.com/44734956/168641621-32d02797-0a0f-4b96-b7d5-c3a930a57659.png)
+
+
+![image](https://user-images.githubusercontent.com/44734956/168641783-2570258a-f6e0-48e2-8cb4-51552155da5e.png)
+
+

@@ -4,7 +4,7 @@
 Prerequisite :node and npm should be installed
 - npm install -g cypress  (This is to install Cypress globally on machine)
 - git clone https://github.com/pawankalra2/the-Internet-Automation-Cypress-Cucumber-ts.git or download Zip
-- cd the-internet-automation-cypress-cucumber-ts
+- cd the-Internet-Automation-Cypress-Cucumber-ts
 - npm install  (To download all dependencies of project from package.json)
 - npm run runAllTests (to Run all Tests) or
 - npm run PositiveScenario (to run only Positive scenario based on Cucumber tags in Feature file,configurable in package.json or
